@@ -11,8 +11,8 @@
 }
 
 body {
-    background: #fff;
-    color: #000;
+    background: #ffffff;
+    color: #707070;
     font-family: Helvetica, Arial;
     text-align: center;
 }
@@ -22,11 +22,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
-    text-align: left;
+    text-align: center;
 }
 
 header {
-    background-color: #eee;
+    background-color: #eee000;
 }
 
 header .wrapper {
@@ -168,3 +168,4 @@ footer {
         padding: 40px 20px;
     }
 }
+

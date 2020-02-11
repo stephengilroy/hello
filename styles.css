@@ -41,8 +41,7 @@ header a {
 
 header .site-name {
     font-size: 1.5em;
-    color: #000;
-    font-weight: bold;
+    color: #696969;
 }
 
 nav {
@@ -78,6 +77,11 @@ a {
 
 .description {
     margin-bottom: 40px;
+}
+
+.bolded {
+    font-weight: bold;
+    color: #000;
 }
 
 .item-list > li {
@@ -148,28 +152,33 @@ footer {
 }
 
 /* Dark Mode support to be added later */
-/*@media (prefers-color-scheme: dark) {*/
-/*    body {*/
-/*        background-color: #222;*/
-/*    }*/
-/**/
-/*    body,*/
-/*    header .site-name {*/
-/*        color: #ddd;*/
-/*    }*/
-/**/
-/*    .item-list > li {*/
-/*        background-color: #333;*/
-/*    }*/
-/**/
-/*    header {*/
-/*        background-color: #000;*/
-/*    }*/
-/*}*/
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+        color: #e3e3e3;
+    }
+
+    header .site-name {
+        color: #000;
+    }
+
+    .item-list > li {
+        background-color: #333;
+    }
+
+    header {
+        background-color: #eee000;
+    }
+    
+    .description {
+        color: #000;
+    }
+}
 
 @media(max-width: 600px) {
     .wrapper {
         padding: 40px 20px;
     }
 }
+
 
